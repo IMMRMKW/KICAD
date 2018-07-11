@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# RotaryEncoderRGB
+#
+DEF RotaryEncoderRGB U 0 40 Y Y 1 F N
+F0 "U" 0 -300 60 H V C CNN
+F1 "RotaryEncoderRGB" 0 300 60 H V C CNN
+F2 "" 0 -300 60 H I C CNN
+F3 "" 0 -300 60 H I C CNN
+DRAW
+S 150 -200 -200 200 0 1 0 N
+X R 1 -400 150 200 R 50 50 1 1 I
+X G 2 -400 50 200 R 50 50 1 1 I
+X S 3 -400 -50 200 R 50 50 1 1 I
+X B 4 -400 -150 200 R 50 50 1 1 I
+X + 5 350 150 200 L 50 50 1 1 I
+X A 6 350 50 200 L 50 50 1 1 I
+X C 7 350 -50 200 L 50 50 1 1 I
+X B 8 350 -150 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
