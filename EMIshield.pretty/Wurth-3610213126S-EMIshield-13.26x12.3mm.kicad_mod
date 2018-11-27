@@ -1,0 +1,45 @@
+(module Wurth-3610213126S-EMIshield-13.26x12.3mm (layer F.Cu) (tedit 5BD58103)
+  (fp_text reference REF** (at 0 3.45) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Wurth-3610213126S-EMIshield-13.26x12.3mm (at 0 -5.3) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -6.15 -6.63) (end 6.15 -6.63) (layer F.SilkS) (width 0.15))
+  (fp_line (start -6.15 6.63) (end 6.15 6.63) (layer F.SilkS) (width 0.15))
+  (fp_line (start 6.15 -6.63) (end 6.15 6.63) (layer F.SilkS) (width 0.15))
+  (fp_line (start -6.15 -6.63) (end -6.15 6.63) (layer F.SilkS) (width 0.15))
+  (fp_circle (center -5 -5) (end -4.5 -5) (layer F.SilkS) (width 0.15))
+  (pad 1 smd rect (at -6.15 0) (size 0.75 3.3) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 6.15 0) (size 0.75 3.3) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 0 -6.63 90) (size 0.75 3.3) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 0 6.63 90) (size 0.75 3.3) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd custom (at -6.15 5.355) (size 0.75 3.3) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.375 0.9) (xy 2.925 0.9) (xy 2.925 1.65) (xy -0.375 1.65)) (width 0))
+    ))
+  (pad 1 smd custom (at 6.15 -5.355 180) (size 0.75 3.3) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.375 0.9) (xy 2.925 0.9) (xy 2.925 1.65) (xy -0.375 1.65)) (width 0))
+    ))
+  (pad 1 smd custom (at -4.875 -6.63 270) (size 0.75 3.3) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.375 0.9) (xy 2.925 0.9) (xy 2.925 1.65) (xy -0.375 1.65)) (width 0))
+    ))
+  (pad 1 smd custom (at 4.875 6.63 90) (size 0.75 3.3) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.375 0.9) (xy 2.925 0.9) (xy 2.925 1.65) (xy -0.375 1.65)) (width 0))
+    ))
+)
