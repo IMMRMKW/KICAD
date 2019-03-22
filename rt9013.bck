@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RT9701
+D 100 milliohm power distribution switch
+K power distribution switch
+F https://www.richtek.com/assets/product_file/RT9701/DS9701-16.pdf
+$ENDCMP
+#
+#End Doc Library

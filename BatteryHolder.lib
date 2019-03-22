@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 18650x2Holder
+#
+DEF 18650x2Holder J 0 40 Y Y 1 F N
+F0 "J" 0 -150 50 H V C CNN
+F1 "18650x2Holder" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 100 200 -100 0 1 0 N
+X V+a 1 -300 50 100 R 50 50 1 1 I
+X V-b 2 -300 -50 100 R 50 50 1 1 I
+X V-a 3 300 50 100 L 50 50 1 1 I
+X V+b 4 300 -50 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
