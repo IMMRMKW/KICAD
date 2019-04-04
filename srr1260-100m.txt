@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-18112016-085462";"";
+"REFERENCE";"SRR1260-100M";"";
+"TraceParts.ClassPath";"";"";
+"TraceParts.PartVersion";"1.0.0";"";
+"TraceParts.InstanceId";"10-18112016-085462792P4ZMHWZSKRZUMOUKKMR9JQ";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartTitle";"Power inductor 10UH 5,5A 20% 21MHZ";"";
+"SUPPLIER";"BOURNS";"";
+"DESIGN";"Power inductor 10UH 5,5A 20% 21MHZ";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";

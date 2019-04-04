@@ -1,8 +1,8 @@
-(module CAP-SMD-SIZE-D (layer F.Cu) (tedit 55A243AD)
-  (fp_text reference REF** (at -4 0 90) (layer F.SilkS)
+(module CAP-SMD-SIZE-D (layer F.Cu) (tedit 5CA4D5D4)
+  (fp_text reference C9 (at 4.075 1.25 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value CAP-SMD-SIZE-D (at 4.2 0 90) (layer F.Fab) hide
+  (fp_text value C (at 4.2 0 90) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -2.3 -3.3) (end -1 -3.3) (layer F.SilkS) (width 0.15))
@@ -17,4 +17,9 @@
   (fp_line (start 3.3 3.3) (end 3.3 0) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at 0 -2.8) (size 1.5 4) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 2.8) (size 1.5 4) (layers F.Cu F.Paste F.Mask))
+  (model ${CUSTOM}/ALU-D.STEP
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )
