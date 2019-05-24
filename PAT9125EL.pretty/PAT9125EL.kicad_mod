@@ -1,5 +1,5 @@
-(module ok1hra:PAT9125EL (layer F.Cu) (tedit 595117B6)
-  (fp_text reference U1 (at 2.398 -0.014 90) (layer F.SilkS)
+(module PAT9125EL (layer F.Cu) (tedit 5CE7BF60)
+  (fp_text reference U1 (at 2.398 -0.014 -270) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
   (fp_text value PAT9125EL (at 0 -2.3) (layer F.Fab)
@@ -31,6 +31,11 @@
   (model ../../../../../home/dan/kicad/img/PAC7640.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.393700787 0.393700787 0.393700787))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${CUSTOM}/PAT9125Package.STEP
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )
