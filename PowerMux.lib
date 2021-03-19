@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TPS2115
+#
+DEF TPS2115 U 0 40 Y Y 1 F N
+F0 "U" 0 -250 50 H V C CNN
+F1 "TPS2115" 0 250 50 H V C CNN
+F2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" -100 -350 50 H I C CNN
+F3 "https://nl.farnell.com/texas-instruments/tps2115apwr/power-load-sw-high-side-5-5v-tssop/dp/3124061?st=TPS2115" 0 -250 50 H I C CNN
+F4 "3124061" 100 -150 50 H I C CNN "Article number"
+F5 "2.12" 200 -50 50 H V C CNN "Price"
+DRAW
+S -200 200 200 -200 0 1 0 N
+X Stat 1 -300 150 100 R 50 50 1 1 O
+X D0 2 -300 50 100 R 50 50 1 1 I
+X D1 3 -300 -50 100 R 50 50 1 1 I
+X ILim 4 -300 -150 100 R 50 50 1 1 O
+X GND 5 300 -150 100 L 50 50 1 1 O
+X In2 6 300 -50 100 L 50 50 1 1 I
+X Out 7 300 50 100 L 50 50 1 1 O
+X In1 8 300 150 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
