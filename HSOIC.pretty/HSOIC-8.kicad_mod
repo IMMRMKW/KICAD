@@ -1,4 +1,4 @@
-(module HSOIC-8 (layer F.Cu) (tedit 5CA4C95C)
+(module HSOIC-8 (layer F.Cu) (tedit 60AD5BA4)
   (fp_text reference U2 (at 0 -3.1 -180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -28,5 +28,10 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model ${CUSTOM}/SOIC8.STEP
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
   )
 )
