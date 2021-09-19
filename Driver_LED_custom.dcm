@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CL25
+D Temperature Compensated Constant Current LED IC
+K Constant Current LED Driver IC
+F https://www.microchip.com/en-us/product/CL25#document-table
+$ENDCMP
+#
+#End Doc Library
