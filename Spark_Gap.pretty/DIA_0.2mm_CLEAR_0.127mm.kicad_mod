@@ -1,17 +1,83 @@
-(footprint "DIA_0.2mm_CLEAR_0.127mm" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 0)
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -1.143 unlocked) (layer "F.SilkS") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d9d1c262-3346-48e4-b8c4-77b2cb8fb279)
-  )
-  (fp_text value "DIA_0.2mm_CLEAR_0.127mm" (at 0 1.651 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 24f509a9-28e1-4959-971b-8c80922087c4)
-  )
-  (pad "1" smd circle (at -0.1905 0) (size 0.254 0.254) (layers "F.Cu" "F.Mask")
-    (solder_mask_margin 0.127) (tstamp 23c74ab8-e3ab-471f-b3c6-289322081e27))
-  (pad "2" smd circle (at 0.1905 0) (size 0.254 0.254) (layers "F.Cu" "F.Mask")
-    (solder_mask_margin 0.127) (tstamp 6647b6fa-4d02-4f02-a6d8-cba08b2519fb))
+(footprint "DIA_0.2mm_CLEAR_0.127mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.143 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d9d1c262-3346-48e4-b8c4-77b2cb8fb279")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DIA_0.2mm_CLEAR_0.127mm"
+		(at 0 1.651 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24f509a9-28e1-4959-971b-8c80922087c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98e204fb-5222-4ac6-a17f-3eb7cb328165")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97758cbe-b510-497c-9516-a4db13bfbe4e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5ed2552-f293-4904-91a2-a6e42b8bcdcd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(pad "1" smd circle
+		(at -0.1905 0)
+		(size 0.254 0.254)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.127)
+		(uuid "23c74ab8-e3ab-471f-b3c6-289322081e27")
+	)
+	(pad "2" smd circle
+		(at 0.1905 0)
+		(size 0.254 0.254)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.127)
+		(uuid "6647b6fa-4d02-4f02-a6d8-cba08b2519fb")
+	)
 )
