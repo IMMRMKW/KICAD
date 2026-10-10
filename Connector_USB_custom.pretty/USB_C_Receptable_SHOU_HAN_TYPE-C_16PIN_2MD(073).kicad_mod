@@ -1,7 +1,7 @@
 (footprint "USB_C_Receptable_SHOU_HAN_TYPE-C_16PIN_2MD(073)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "USB-C-SMD_TYPE-C-6PIN-2MD-073 footprint")
 	(tags "USB-C-SMD_TYPE-C-6PIN-2MD-073 footprint")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6afc567f-cb56-4f49-9e60-cdfd718c8bf9")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -121,7 +109,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "5f324b1f-6dea-4c76-8e1d-4c3fd08fa6ae")
 	)
@@ -132,7 +120,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "11100d64-0b7a-4d40-b4f1-6811f7f99112")
 	)
@@ -153,97 +141,97 @@
 	(pad "A1" smd rect
 		(at -3.2 -2.33)
 		(size 0.6 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6edfef5c-4971-4b29-9f03-5fdf7a988767")
 	)
 	(pad "A4" smd rect
 		(at -2.4 -2.33)
 		(size 0.6 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "61926864-2560-4312-88ad-cf2a3309e435")
 	)
 	(pad "A5" smd rect
 		(at -1.25 -2.33)
 		(size 0.3 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c446265f-e39e-4a03-be40-7da6066be5d7")
 	)
 	(pad "A6" smd rect
 		(at -0.25 -2.33)
 		(size 0.3 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4bcec1fd-76ca-4a52-b83a-27a26447a489")
 	)
 	(pad "A7" smd rect
 		(at 0.25 -2.33)
 		(size 0.3 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c64573c3-a9c3-4e38-aceb-594f593fb424")
 	)
 	(pad "A8" smd rect
 		(at 1.25 -2.33)
 		(size 0.3 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9357786a-dc02-47d2-8d75-4a51c7776225")
 	)
 	(pad "A9" smd rect
 		(at 2.4 -2.33)
 		(size 0.6 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "79cfaab5-72d2-4028-8130-ba3c4e96f522")
 	)
 	(pad "A12" smd rect
 		(at 3.2 -2.33)
 		(size 0.6 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f7684b3c-0502-41d0-b108-ce2698b85200")
 	)
 	(pad "B1" smd rect
 		(at 3.2 -2.33)
 		(size 0.6 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "30578d30-999d-4cb6-b98e-2b0d1e0da233")
 	)
 	(pad "B4" smd rect
 		(at 2.4 -2.33)
 		(size 0.6 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "39d79d14-d43d-44f5-bef1-0b34dc65bc8b")
 	)
 	(pad "B5" smd rect
 		(at 1.75 -2.33)
 		(size 0.3 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5253f71d-f2d5-4a3b-b322-e9c7cc05b9b0")
 	)
 	(pad "B6" smd rect
 		(at 0.75 -2.33)
 		(size 0.3 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1ba14295-dd19-4598-9685-db240539fffd")
 	)
 	(pad "B7" smd rect
 		(at -0.75 -2.33)
 		(size 0.3 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c222d9ca-ca54-406b-9806-e8bcaf0a5a89")
 	)
 	(pad "B8" smd rect
 		(at -1.75 -2.33)
 		(size 0.3 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "353241c8-37c5-43bc-b439-38e101d7603b")
 	)
 	(pad "B9" smd rect
 		(at -2.4 -2.33)
 		(size 0.6 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "57061da2-6fac-4d1a-b008-f172823a35e0")
 	)
 	(pad "B12" smd rect
 		(at -3.2 -2.33)
 		(size 0.6 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "36a31b28-db86-4efe-9d86-931149f8a477")
 	)
 	(pad "S1" thru_hole oval
@@ -278,7 +266,9 @@
 		(remove_unused_layers no)
 		(uuid "c1e00eea-0335-482d-a181-b942b83552fd")
 	)
+	(embedded_fonts no)
 	(model "${CUSTOM}/Connector_USB_custom.pretty/packages3d/USB_C_Receptable_SHOU_HAN_TYPE-C_16PIN_2MD(073).wrl"
+		(hide yes)
 		(offset
 			(xyz 0 -1.32496558 1.679879775)
 		)
@@ -287,6 +277,17 @@
 		)
 		(rotate
 			(xyz 0 0 0)
+		)
+	)
+	(model "${CUSTOM}/Connector_USB_custom.pretty/packages3d/USB-C-SMD_TYPE-C-6PIN-2MD-073.step"
+		(offset
+			(xyz 0 -1.324966 1.67988)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
 		)
 	)
 )

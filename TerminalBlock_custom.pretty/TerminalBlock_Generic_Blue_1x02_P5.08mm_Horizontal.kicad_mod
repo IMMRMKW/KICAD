@@ -1,0 +1,331 @@
+(footprint "TerminalBlock_Generic_Blue_1x02_P5.08mm_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Terminal Block CUI TB007-508-02, 2 pins, pitch 5.08mm, size 10.8x10.2mm, drill diameter 1.6mm, pad diameter 2.4mm, https://www.cuidevices.com/product/resource/tb007-508.pdf")
+	(tags "THT Terminal Block CUI TB007-508-02 pitch 5.08mm size 10.8x10.2mm drill 1.6mm pad 2.4mm")
+	(property "Reference" "REF**"
+		(at 0.105 -5.23 0)
+		(layer "F.SilkS")
+		(uuid "86f2e3e6-221e-421b-b8ce-0e20806be02a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TerminalBlock_Generic_Blue_1x02_P5.08mm_Horizontal"
+		(at 2.84 4.275 0)
+		(layer "F.Fab")
+		(uuid "b8ee2f9a-b669-4c1d-8cd8-a4b2947b0776")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76a06265-53b9-41ad-9456-6611c322a8f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f77085c8-cdc0-42d1-b486-b51c9bc1a0ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "terminal_block/CUI"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cc25b3d4-8cad-4d57-89e3-0c15b6b01465")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.735 -4.23)
+		(end 7.815 -4.23)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9604170d-89d2-4351-84b0-96e6c819ba9d")
+	)
+	(fp_line
+		(start -2.735 -2.61)
+		(end 7.815 -2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b748ffa-aebf-4c03-abfb-4e653173f9d5")
+	)
+	(fp_line
+		(start -2.735 2.27)
+		(end 7.815 2.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3bd12764-2452-43e7-8891-725537ccfc6d")
+	)
+	(fp_line
+		(start -2.735 3.39)
+		(end -2.735 -4.23)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53b83cdc-ee35-4316-9bc0-ced7854d6aa9")
+	)
+	(fp_line
+		(start -0.375 3.39)
+		(end -2.735 3.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "155fe126-fb2f-45c6-b50f-96ddbd408811")
+	)
+	(fp_line
+		(start 7.815 -4.23)
+		(end 7.815 3.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6cb9c080-c2c3-40c5-9854-61e7221b11dc")
+	)
+	(fp_line
+		(start 7.815 3.39)
+		(end 0.225 3.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99fc5f29-61b6-4f24-b073-8da2d96a202c")
+	)
+	(fp_poly
+		(pts
+			(xy -0.075 3.39) (xy 0.365 4) (xy -0.515 4)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "1fb1c568-8ab9-4336-a73a-593c2e06c7b4")
+	)
+	(fp_rect
+		(start -2.885 -4.38)
+		(end 7.965 3.54)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6b98ffdf-30c9-49cd-8c72-7fdc27cfa797")
+	)
+	(fp_line
+		(start -2.615 -4.11)
+		(end 7.695 -4.11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8292d629-c8da-47a6-ad93-7a3ec143a1ab")
+	)
+	(fp_line
+		(start -2.615 -3.4)
+		(end 7.695 -3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8aedd7e-37bc-4775-aec0-de6d02885dd0")
+	)
+	(fp_line
+		(start -2.615 2.15)
+		(end -2.615 -4.11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "94c811ec-bc38-4325-8120-d094fd78ebef")
+	)
+	(fp_line
+		(start -2.615 2.15)
+		(end 7.695 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f9b8252-bb0a-442e-8af5-eceb9a9ee415")
+	)
+	(fp_line
+		(start -1.615 3.27)
+		(end -2.615 2.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2c2187e-2384-4b29-b434-192a47e91cda")
+	)
+	(fp_line
+		(start 1.177 -1.403)
+		(end -1.403 1.177)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4fd83e65-4d6e-4793-8e76-b4f094c38980")
+	)
+	(fp_line
+		(start 1.403 -1.177)
+		(end -1.177 1.403)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "984442a6-dc02-4746-8a89-5bd8277c0549")
+	)
+	(fp_line
+		(start 6.257 -1.403)
+		(end 3.677 1.177)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2fd2493-226f-41a1-a877-28435f4888d4")
+	)
+	(fp_line
+		(start 6.483 -1.177)
+		(end 3.903 1.403)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72698711-b32a-4e63-8140-22bd7ff08a21")
+	)
+	(fp_line
+		(start 7.695 -4.11)
+		(end 7.695 3.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a46b24cc-0a40-4436-b2ef-ea7c5f85286b")
+	)
+	(fp_line
+		(start 7.695 3.27)
+		(end -1.615 3.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "912bc1d4-d2ae-41ae-a3e3-21e5c8d226aa")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.85 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c156a695-eb11-48fa-8328-a77ac8667bdb")
+	)
+	(fp_circle
+		(center 5.08 0)
+		(end 6.93 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1d37d0a0-478e-4f73-9657-8f63bd6e8932")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.765 0.225 0)
+		(layer "F.Fab")
+		(uuid "c9942519-3b9e-474d-ab56-2b780208b876")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.104167)
+		(uuid "96d48bb2-37b6-464d-b44d-6da6d59518de")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3f6810cb-8365-45ac-bfc6-8e6cfdafc701")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_CUI.3dshapes/TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,164 @@
+(footprint "LED-SMD_4P-L1.6-W1.5-TR-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED-SMD_4P-L1.6-W1.5-TR-1 footprint")
+	(tags "LED-SMD_4P-L1.6-W1.5-TR-1 footprint C3029071")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "397aee22-3d0c-47f8-bbdd-1663cb790438")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-SMD_4P-L1.6-W1.5-TR-1"
+		(at 0 2.800025 0)
+		(layer "F.Fab")
+		(uuid "69df7792-1ab9-4a1a-b88c-ef89fcb15d78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91b8d060-b432-4ba0-bdfc-ce5508216654")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a9a6e1d-1dfd-4762-bf20-a27b18ebe46b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.975 0.8)
+		(end -0.975 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f241f7d9-5eee-40a5-a11b-c397f47828ce")
+	)
+	(fp_line
+		(start -0.3 0.125)
+		(end 0.3 0.125)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5be7d369-c3d6-4cab-a751-956b5ca87dce")
+	)
+	(fp_line
+		(start 0 -0.15)
+		(end 0 0.125)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a44ae820-86f7-484c-9b73-5fc87e6891d4")
+	)
+	(fp_line
+		(start 0.975 -0.6)
+		(end 0.975 0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e9f1db7-d85b-4988-81fe-0cc719fb43a3")
+	)
+	(fp_circle
+		(center 0.975 -0.8)
+		(end 1.035 -0.8)
+		(stroke
+			(width 0.00001)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "633fdc51-ee66-40ad-a4b7-380188633dd4")
+	)
+	(fp_rect
+		(start -1.025 -1.2)
+		(end 1.025 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "150dec5a-1d2a-42c6-a4ae-fe76a431c96f")
+	)
+	(fp_text user "REF**"
+		(at 0 4.800025 0)
+		(layer "F.Fab")
+		(uuid "63fbe7d8-60cc-4cb1-89f9-7c3f96da8adf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.5 -0.725)
+		(size 0.75 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1c4eda82-f875-4b66-83f4-5b66742b9dfa")
+	)
+	(pad "2" smd rect
+		(at 0.5 0.725 270)
+		(size 0.65 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cfef169e-d466-4a28-92e9-383d009bf3af")
+	)
+	(pad "3" smd rect
+		(at -0.5 0.725 270)
+		(size 0.65 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6e10673f-9d15-4f26-bea7-219a16285eb4")
+	)
+	(pad "4" smd rect
+		(at -0.5 -0.725)
+		(size 0.75 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ca507240-8e34-4427-9776-f0f9088ace7e")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM}/LED_SMD_custom.pretty/packages3d/LED-SMD_4P-L1.6-W1.5-BL-1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

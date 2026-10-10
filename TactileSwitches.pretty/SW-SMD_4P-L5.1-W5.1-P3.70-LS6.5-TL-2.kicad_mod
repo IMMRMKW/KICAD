@@ -1,7 +1,7 @@
 (footprint "SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint")
 	(tags "SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8f1cd74b-5bab-4bf1-baaa-b424586f9188")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -234,7 +221,7 @@
 			(width 0.059995)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "4a2c5485-8a8f-4ec8-ab1f-5583510babb9")
 	)
@@ -245,7 +232,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "7d7e81df-9f8d-405f-833d-6739912392c5")
 	)
@@ -256,34 +243,35 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "f715a1f1-9073-413c-bddd-28f2b4743684")
 	)
 	(pad "1" smd rect
 		(at -3.299975 -1.850191)
 		(size 1.7 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8a94a55b-de02-4833-a6d5-e300d6e0f65b")
 	)
 	(pad "1" smd rect
 		(at 3.299975 -1.850216)
 		(size 1.7 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "43661a66-0403-496c-baa4-7fb0c16599d0")
 	)
 	(pad "2" smd rect
 		(at -3.299975 1.850216)
 		(size 1.7 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6a48ebd3-ca3d-4ce4-867c-626ea0bd8f4c")
 	)
 	(pad "2" smd rect
 		(at 3.299975 1.850191)
 		(size 1.7 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c3a82b4d-933c-485f-8388-b27d9b00ba63")
 	)
+	(embedded_fonts no)
 	(model "${CUSTOM}/TactileSwitches.pretty/packages3d/SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2.wrl"
 		(offset
 			(xyz 0 -0.0000253999996185 0.05003799925)
@@ -293,6 +281,17 @@
 		)
 		(rotate
 			(xyz 0 0 0)
+		)
+	)
+	(model "${CUSTOM}/TactileSwitches.pretty/packages3d/SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5.step"
+		(offset
+			(xyz 0 -0.000025 0.050038)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
 		)
 	)
 )
